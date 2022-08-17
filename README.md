@@ -1,8 +1,11 @@
 MCU:FT60F010
 
-Ó¦ÓÃ£º³¬Éù²¨²â¾à
+åº”ç”¨ï¼šè¶…å£°æ³¢æµ‹è·
 
-PA2¡ª¡ªTRIG
-PA4¡ª¡ªECHO
-PA0¡ª¡ªÉÕÂ¼¿ÚCLK¸´ÓÃÐÅºÅÊä³ö½Å
-PA1¡ª¡ªÉÕÂ¼¿ÚDAT¸´ÓÃÐÅºÅÊäÈë½Å
+PA2â€”â€”TRIG
+
+PA4â€”â€”ECHO
+
+PA0â€”â€”çƒ§å½•å£CLKå¤ç”¨ä¿¡å·è¾“å‡ºè„š
+
+PA1â€”â€”çƒ§å½•å£DATå¤ç”¨ä¿¡å·è¾“å…¥è„š
