@@ -3,6 +3,7 @@
 #define __KEY_H
 
 #include "led.c"
+#include "Hardward.c"
 
 #define KEY1    RA7
 #define KEY2    RA6

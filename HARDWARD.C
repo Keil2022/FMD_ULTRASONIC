@@ -16,6 +16,15 @@
 #define  ADV12(x)  	((u32)(x)*Max12bit/Ver)  	//12bit AD转换倍率
 #define  ADV16(x)   ((u32)(x)*Max16bit/Ver)  	//16bit AD转换倍率
 
+typedef unsigned char uchar;
+typedef unsigned short ushort;
+typedef unsigned int uint;
+typedef unsigned long ulong;
+
+typedef unsigned long u32;
+typedef unsigned short u16;
+typedef unsigned char  u8;
+
 #define Nop() 		asm("nop")
 #define ClrWdt() 	asm("clrwdt")
 #define Stop() 		asm("stop")
