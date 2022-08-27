@@ -3,7 +3,7 @@
 #define __ULTR_H
 
 #define TRIG   	RA2	//触发引脚
-#define ECHO   RA4	//接收引脚
+#define ECHO   RA1	//接收引脚
 
 #define RISK   	RA0	//危险信号输出引脚	0-安全；1-危险
 
@@ -21,8 +21,8 @@ void ULTR_Init(void)
 	TRISA0 = 0;	//PA0输出模式
     RISK = 0;		//0-安全；1-危险
     
-	TRISA4 = 1;	//PA4输入模式
-	WPUA4 = 1;	//PA4弱上拉
+	TRISA1 = 1;	//PA4输入模式
+	WPUA1 = 1;	//PA4弱上拉
 }
 
 void Calculate(void)

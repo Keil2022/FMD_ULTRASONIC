@@ -12,7 +12,7 @@ BITS_T falg;	//标志集
 #define IRZT				falg.bit1	//电平信号标志位
 #define Per10ms		falg.bit2	//10ms标志位
 
-#define UART   RA1	//串行接收引脚
+#define UART   RA4	//串行接收引脚
 
 u16 Count = 0;
 u16 Distance = 0;
@@ -134,8 +134,8 @@ void Data_Init(void)
 
 void UART_Init(void)
 {
-	TRISA1 = 1;	//PA1输入模式
-	WPUA1 = 1;	//PA1弱上拉
+	TRISA4 = 1;	//PA1输入模式
+	WPUA4 = 1;	//PA1弱上拉
 }
 
 void UART_RX(void)
